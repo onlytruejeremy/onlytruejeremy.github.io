@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ac4c86b.chunk.css",
+    "main.js": "/static/js/main.f835e0ac.chunk.js",
+    "main.js.map": "/static/js/main.f835e0ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3888eb90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3888eb90.js.map",
+    "static/css/2.1c0c6492.chunk.css": "/static/css/2.1c0c6492.chunk.css",
+    "static/js/2.37c0a74e.chunk.js": "/static/js/2.37c0a74e.chunk.js",
+    "static/js/2.37c0a74e.chunk.js.map": "/static/js/2.37c0a74e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1c0c6492.chunk.css.map": "/static/css/2.1c0c6492.chunk.css.map",
+    "static/css/main.8ac4c86b.chunk.css.map": "/static/css/main.8ac4c86b.chunk.css.map",
+    "static/js/2.37c0a74e.chunk.js.LICENSE.txt": "/static/js/2.37c0a74e.chunk.js.LICENSE.txt",
+    "static/media/FRJeremy.10b84acd.pdf": "/static/media/FRJeremy.10b84acd.pdf",
+    "static/media/ProfilePic.e122ae31.jpg": "/static/media/ProfilePic.e122ae31.jpg",
+    "static/media/codeimage.ebc3090a.jpg": "/static/media/codeimage.ebc3090a.jpg",
+    "static/media/ecomm1.addd0aba.PNG": "/static/media/ecomm1.addd0aba.PNG",
+    "static/media/ecomm2.5c5b1c44.PNG": "/static/media/ecomm2.5c5b1c44.PNG",
+    "static/media/ecomm3.29b4520c.PNG": "/static/media/ecomm3.29b4520c.PNG",
+    "static/media/movies1.df81b3ad.PNG": "/static/media/movies1.df81b3ad.PNG",
+    "static/media/movies2.d6d88c77.PNG": "/static/media/movies2.d6d88c77.PNG",
+    "static/media/movies3.5c3f18a9.PNG": "/static/media/movies3.5c3f18a9.PNG",
+    "static/media/social1.ab931a08.PNG": "/static/media/social1.ab931a08.PNG",
+    "static/media/social2.f66cd2d2.PNG": "/static/media/social2.f66cd2d2.PNG",
+    "static/media/social3.bc5e402b.PNG": "/static/media/social3.bc5e402b.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3888eb90.js",
+    "static/css/2.1c0c6492.chunk.css",
+    "static/js/2.37c0a74e.chunk.js",
+    "static/css/main.8ac4c86b.chunk.css",
+    "static/js/main.f835e0ac.chunk.js"
+  ]
+}

@@ -10,7 +10,9 @@
   --primary-color: #117aca;
   --light-color: floralwhite;
 }
-
+.App {
+  background-color: var(--light-color);
+}
 .hero__container {
   width: 100%;
   height: 100vh;

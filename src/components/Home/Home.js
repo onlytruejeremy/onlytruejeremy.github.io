@@ -129,6 +129,7 @@ const Home = (props) => {
         <div className="about__container" id="about">
           <div className="about__inner">
             <h2 className="container__title">About</h2>
+
             <div className="two__col">
               <div className="left__col">
                 <div className="image__container">
@@ -156,7 +157,6 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-
       <section>
         <div className="projects__container" id="projects">
           <div className="projects__inner">
