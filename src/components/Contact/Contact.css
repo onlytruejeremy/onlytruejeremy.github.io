@@ -33,6 +33,9 @@
   line-height: 1.5rem;
   letter-spacing: 0.15rem;
 }
+.contact__container > h2 {
+  font-size: 2rem;
+}
 .form__title {
   margin-top: 2rem;
   color: var(--light-color);

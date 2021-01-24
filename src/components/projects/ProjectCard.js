@@ -15,6 +15,16 @@ const ProjectCard = (props) => {
         <h3>Tech: </h3>
         <p>{props.item.projectTech}</p>
       </div>
+      <div className="card__body">
+        <h3>Links: </h3>
+        <a href={props.item.viewUrl} target="_blank">
+          View Site
+        </a>
+        <br />
+        <a href={props.item.codeUrl} target="_blank">
+          View Code
+        </a>
+      </div>
       <div className="card__footer">
         {props.item.projectImages.map((item) => {
           console.log(item);

@@ -14,22 +14,29 @@ const data = [
     projectTech:
       "ReactJS, FireBase, Stripe API, Cloud Functions, React Context API, localstorage",
     projectAbout: `Mr. Electronics is an ecommerce application. Users can register, sign-in and view the latest products. They can also view products by category. Once a user has added the items they wish to purchase to the cart they can check out using stripe.`,
-    projectImages: [Ecom1, Ecom2, Ecom3]
+    projectImages: [Ecom1, Ecom2, Ecom3],
+    codeUrl: `https://github.com/onlytruejeremy/mr-electronics`,
+    viewUrl: `https://mr-electronics.web.app/`,
   },
   {
     id: 2,
     projectTitle: "Favorite Movies",
     projectTech: "ReactJS, FireBase, React Bootstrap, The Movie Database API",
-    projectAbout: `Favorite movies as a movie directory application. Users can register, sign-on, comment and add their movies to their favorites.`,
-    projectImages: [Movies1, Movies2, Movies3]
+    projectAbout: `Favorite movies is a movie directory application. Users can register, sign-on, comment and add their movies to their favorites.`,
+    projectImages: [Movies1, Movies2, Movies3],
+    codeUrl: `https://github.com/onlytruejeremy/nothingbutmovies`,
+    viewUrl: `https://movies-c4251.web.app/`,
   },
   {
     id: 3,
     projectTitle: "QuickSocial",
-    projectTech: "ReactJS, MySQL, NodeJS",
+    projectTech:
+      "ReactJS, MySQL, NodeJS, JWT, BCRYPT, Reddit API, React Context API",
     projectAbout: `QuickSocial is a simple social media application where users can make posts with or without images, add friends and view the news.`,
-    projectImages: [Social1, Social2, Social3]
-  }
+    projectImages: [Social1, Social2, Social3],
+    codeUrl: `https://codesandbox.io/s/blissful-cray-nosi2`,
+    viewUrl: `https://nosi2-3000.sse.codesandbox.io/`,
+  },
 ];
 
 export default data;
