@@ -321,8 +321,13 @@ i {
   }
   .actions__container button,
   .social__container {
+    margin: auto;
     margin-left: 0;
     padding-left: 0;
+  }
+  .social__container i {
+    padding-left: 0;
+    margin-left: 0;
   }
   .hero__container .two__col .left__col {
     flex: 1 0 auto;
