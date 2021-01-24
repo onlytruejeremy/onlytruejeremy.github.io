@@ -69,8 +69,9 @@ const Contact = (props) => {
               value={contactForm.values.name}
               onChange={contactForm.handleChange}
             />
-            <label>Name</label>
-            <span className="error__message">{contactForm.errors.name}</span>
+            <label>
+              {contactForm.errors.name ? contactForm.errors.name : "Name"}
+            </label>
           </div>
           <div className="form__group">
             <input
@@ -79,8 +80,9 @@ const Contact = (props) => {
               value={contactForm.values.email}
               onChange={contactForm.handleChange}
             />
-            <label>Email</label>
-            <span className="error__message">{contactForm.errors.email}</span>
+            <label>
+              {contactForm.errors.email ? contactForm.errors.email : "Email"}
+            </label>
           </div>
           <div className="form__group">
             <input
@@ -89,8 +91,9 @@ const Contact = (props) => {
               value={contactForm.values.phone}
               onChange={contactForm.handleChange}
             />
-            <label>Phone</label>
-            <span className="error__message">{contactForm.errors.phone}</span>
+            <label>
+              {contactForm.errors.phone ? contactForm.errors.phone : "Phone"}
+            </label>
           </div>
           <div className="form__group">
             <textarea
@@ -101,8 +104,11 @@ const Contact = (props) => {
               value={contactForm.values.message}
               onChange={contactForm.handleChange}
             ></textarea>
-            <label>Message</label>
-            <span className="error__message">{contactForm.errors.message}</span>
+            <label>
+              {contactForm.errors.message
+                ? contactForm.errors.message
+                : "Message"}
+            </label>
           </div>
           <button className="btn darken">Send Message</button>
         </form>
