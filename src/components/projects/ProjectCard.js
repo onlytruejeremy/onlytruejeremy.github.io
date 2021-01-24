@@ -1,6 +1,9 @@
 import React from "react";
 import Code from "../../assets/codeimage.jpg";
 const ProjectCard = (props) => {
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="card">
       <div className="card__header">
@@ -26,9 +29,12 @@ const ProjectCard = (props) => {
         </a>
       </div>
       <div className="card__footer">
-        {props.item.projectImages.map((item) => {
-          console.log(item);
-          return <img src={`${item}`} alt="project" />;
+        {props.item.projectImages.map((item, index) => {
+          if (index > 1) {
+            return <img src={`${item}`} alt="project" className="hide" />;
+          } else {
+            return <img src={`${item}`} alt="project" />;
+          }
         })}
       </div>
     </div>

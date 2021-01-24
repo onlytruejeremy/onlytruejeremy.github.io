@@ -32,6 +32,11 @@
     0 100px 100px -22px rgba(0, 0, 0, 0.2);
   line-height: 1.5rem;
   letter-spacing: 0.15rem;
+  overflow-y: scroll;
+}
+.contact__inner::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 .contact__container > h2 {
   font-size: 1.5rem;
