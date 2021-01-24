@@ -48,10 +48,10 @@ const ProjectsCarousel = (props) => {
 
       <div className="carousel__actions">
         <button className="btn__carousel darken" onClick={prev}>
-          &#x2B05;
+          &#8592;
         </button>
         <button className="btn__carousel darken" onClick={next}>
-          &#x27A1;
+          &#8594;
         </button>
       </div>
     </>
