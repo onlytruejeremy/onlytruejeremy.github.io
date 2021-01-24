@@ -280,21 +280,27 @@ i {
   .two__col,
   .actions__container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .actions__container button,
+  .social__container {
+    margin-left: 0;
+    padding-left: 0;
   }
   .hero__container .two__col .left__col {
     flex: 1 0 auto;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin: auto;
     padding: 5rem 0;
     max-height: 400px;
     font-size: 2rem;
   }
+
   .hero__container .two__col .left__col p {
     word-wrap: break-word;
-    width: 90vw;
+    width: 100%;
   }
   .hero__container .two__col .right__col {
     display: none;
