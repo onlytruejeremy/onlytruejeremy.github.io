@@ -27,7 +27,7 @@ const ProjectsCarousel = (props) => {
   const handleTransitionEnd = ({ index }) => {
     setIndex(index);
   };
-  const renderItems = (data) => {};
+
   return (
     <>
       <div className="projects__carousel__inner">

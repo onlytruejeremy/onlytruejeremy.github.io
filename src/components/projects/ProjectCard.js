@@ -6,20 +6,6 @@ const ProjectCard = (props) => {
     const element = document.getElementsByClassName(
       "projects__carousel__inner"
     );
-    let touch;
-    const touchPreventionStart = (e) => {
-      touch = e.originalEvent.touches[0].clientX;
-    };
-    const touchPrevent = (e) => {
-      let touchEnd = e.originalEvent.changedTouches[0].clientX;
-      if (touch > touchEnd) {
-        e.preventDefault();
-      } else if (touch < touchEnd) {
-        e.preventDefault();
-      }
-    };
-    element[0].addEventListener("touchstart", touchPreventionStart);
-    element[0].addEventListener("touchmove", touchPrevent);
   }, []);
   return (
     <div className="card">
