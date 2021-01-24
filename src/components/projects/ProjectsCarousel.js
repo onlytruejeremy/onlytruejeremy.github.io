@@ -30,21 +30,26 @@ const ProjectsCarousel = (props) => {
   const renderItems = (data) => {};
   return (
     <>
-      <ReactSimpleCarousel
-        isInfinity
-        className="carousel2"
-        onMount={handleMount}
-      >
-        <div style={{ height: "80vh", width: "80vw" }}>
-          <ProjectCard item={data[0]} />
-        </div>
-        <div style={{ height: "80vh", width: "80vw" }}>
-          <ProjectCard item={data[1]} />
-        </div>
-        <div style={{ height: "80vh", width: "80vw" }}>
-          <ProjectCard item={data[2]} />
-        </div>
-      </ReactSimpleCarousel>
+      <div className="projects__carousel__inner">
+        <ReactSimpleCarousel
+          isInfinity
+          className="carousel2"
+          onMount={handleMount}
+        >
+          <div
+            style={{ height: "80vh", width: "80vw" }}
+            className="card__outer"
+          >
+            <ProjectCard item={data[0]} />
+          </div>
+          <div style={{ height: "80vh", width: "80vw" }}>
+            <ProjectCard item={data[1]} />
+          </div>
+          <div style={{ height: "80vh", width: "80vw" }}>
+            <ProjectCard item={data[2]} />
+          </div>
+        </ReactSimpleCarousel>
+      </div>
 
       <div className="carousel__actions">
         <button className="btn__carousel darken" onClick={prev}>

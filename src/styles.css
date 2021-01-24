@@ -211,6 +211,14 @@ i:hover {
   height: 100%;
   width: 100%;
 }
+.projects__carousel__inner {
+  box-shadow: 0 1px 3.6px rgba(0, 0, 0, 0.098), 0 2.8px 10px rgba(0, 0, 0, 0.14),
+    0 6.6px 24.1px rgba(0, 0, 0, 0.182), 0 22px 80px rgba(0, 0, 0, 0.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
 .carousel__actions {
   display: flex;
   justify-content: space-evenly;
@@ -231,6 +239,8 @@ i:hover {
   align-items: center;
   cursor: pointer;
   position: relative;
+  box-shadow: 0 1px 3.6px rgba(0, 0, 0, 0.098), 0 2.8px 10px rgba(0, 0, 0, 0.14),
+    0 6.6px 24.1px rgba(0, 0, 0, 0.182), 0 22px 80px rgba(0, 0, 0, 0.28);
 }
 
 .card {

@@ -59,7 +59,7 @@ const Contact = (props) => {
   });
   return (
     <div className="contact__container" id="contact">
-      <h2>Contact</h2>
+      <h2 className="container_title">Contact</h2>
       <div className="contact__inner">
         <h2 className="form__title">Get In Touch</h2>
         <form onSubmit={contactForm.handleSubmit}>
