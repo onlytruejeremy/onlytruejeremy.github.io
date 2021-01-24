@@ -3,6 +3,14 @@ import Code from "../../assets/codeimage.jpg";
 const ProjectCard = (props) => {
   React.useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    const element = document.getElementsByClassName(
+      "projects__carousel__inner"
+    );
+    const touchPrevention = (e) => {
+      e.preventDefault();
+    };
+    element[0].addEventListener("touchstart", touchPrevention);
+    element[0].addEventListener("touchmove", touchPrevention);
   }, []);
   return (
     <div className="card">
