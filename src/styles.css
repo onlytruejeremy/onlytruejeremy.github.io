@@ -225,8 +225,7 @@ i:hover {
   justify-content: center;
   display: flex;
   align-items: center;
-  background: var(--light-color);
-  opacity: 80%;
+  background: floralwhite;
   position: relative;
   cursor: pointer;
 }
