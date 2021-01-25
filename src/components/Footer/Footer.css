@@ -16,7 +16,10 @@
     0 36.5px 36.5px -22px rgba(0, 0, 0, 0.138),
     0 56.3px 56.3px -22px rgba(0, 0, 0, 0.158),
     0 100px 100px -22px rgba(0, 0, 0, 0.2);
+
+  border-top: 0.2rem solid #111111;
 }
+
 .footer__container > * {
   color: var(--light-color);
 }

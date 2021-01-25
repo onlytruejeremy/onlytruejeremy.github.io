@@ -1,12 +1,22 @@
 import React from "react";
-import Code from "../../assets/codeimage.jpg";
 const ProjectCard = (props) => {
+  const [images, setImages] = React.useState([]);
   React.useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    const element = document.getElementsByClassName(
-      "projects__carousel__inner"
+    setImages(
+      props.item.projectImages.map((item, index) => {
+        return (
+          <div className="carousel__image__container">
+            <img
+              src={`${item}`}
+              id={index}
+              alt="project"
+              className="carousel__image"
+            />
+          </div>
+        );
+      })
     );
-  }, []);
+  }, [props.item.projectImages]);
   return (
     <div className="card">
       <div className="card__header">
@@ -31,15 +41,7 @@ const ProjectCard = (props) => {
           View Code
         </a>
       </div>
-      <div className="card__footer">
-        {props.item.projectImages.map((item, index) => {
-          if (index > 1) {
-            return <img src={`${item}`} alt="project" className="hide" />;
-          } else {
-            return <img src={`${item}`} alt="project" />;
-          }
-        })}
-      </div>
+      <div className="card__footer">{images}</div>
     </div>
   );
 };

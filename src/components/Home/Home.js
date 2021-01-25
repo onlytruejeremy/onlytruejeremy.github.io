@@ -1,11 +1,12 @@
 import React from "react";
 import Profile from "../../assets/ProfilePic.jpg";
 import Code from "../../assets/codeimage.jpg";
-import ProjectsCarousel from "../projects/ProjectsCarousel";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import Resume from "../../assets/FRJeremy.pdf";
+import ProjectTabs from "../projects/ProjectsTabs";
+import Typed from "react-typed";
 const Home = (props) => {
   const [isActive, setIsActive] = React.useState(false);
   const triggerActive = () => {
@@ -84,9 +85,16 @@ const Home = (props) => {
           </div>
           <div className="two__col">
             <div className="left__col">
-              <p>
-                I develop full stack applications that help businesses grow.
-              </p>
+              <Typed
+                strings={[
+                  "Welcome to my portfolio, I'm Jeremy.",
+                  "I develop full stack applications that help businesses grow.",
+                ]}
+                typeSpeed={50}
+                backSpeed={50}
+                loop={false}
+                showCursor={true}
+              />
               <div className="actions__container">
                 <button
                   className="btn btn__primary darken"
@@ -95,7 +103,7 @@ const Home = (props) => {
                     window.open(Resume);
                   }}
                 >
-                  Resume
+                  Résumé
                 </button>
                 <div className="social__container">
                   <a
@@ -129,7 +137,6 @@ const Home = (props) => {
         <div className="about__container" id="about">
           <div className="about__inner">
             <h2 className="container__title">About</h2>
-
             <div className="two__col">
               <div className="left__col">
                 <div className="image__container">
@@ -138,36 +145,31 @@ const Home = (props) => {
               </div>
               <div className="right__col">
                 <div className="top__col">
+                  <h3>Hello and Welcome!</h3>
                   <p>
-                    Welcome to my portfolio. I'm a full stack developer with a
-                    focus on React, Node and SQL. I have exposure to
-                    document-based databases as well. I enjoy tackling
-                    challenging problems and watching a project come to life. My
-                    other areas of expertise include IT and intelligence
-                    analysis.
+                    I'm a full stack developer with a focus on React, Node and
+                    SQL. Don't tell anyone but I've been cheating on SQL based
+                    databases with document-based ones lately. The other secret
+                    is that I've been diving more into React Native.
                   </p>
                 </div>
-                <div className="bottom__col">
-                  <p>
-                    When I'm not coding you just might find me out on a hike.
-                  </p>
-                </div>
+                <div className="bottom__col"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section>
         <div className="projects__container" id="projects">
           <div className="projects__inner">
             <h2 className="container__title">Projects</h2>
             <div className="projects__carousel">
-              <ProjectsCarousel />
+              <ProjectTabs />
             </div>
           </div>
         </div>
       </section>
-
       <Contact />
       <Footer />
     </>
