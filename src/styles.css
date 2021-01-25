@@ -278,7 +278,7 @@ i:hover {
   max-height: 200vh;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -309,10 +309,12 @@ i {
 .project__tabs__container {
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 .project__tabs__inner {
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 @media screen and (max-width: 900px) {

@@ -148,7 +148,7 @@ const Home = (props) => {
                   <h3>Hello and Welcome!</h3>
                   <p>
                     I'm a full stack developer with a focus on React, Node and
-                    SQL. Don't tell anyone but I've been cheating on SQL based
+                    SQL. Don't tell anyone but I've been cheating on SQL-based
                     databases with document-based ones lately. The other secret
                     is that I've been diving more into React Native.
                   </p>
