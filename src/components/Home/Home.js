@@ -92,7 +92,7 @@ const Home = (props) => {
                 ]}
                 typeSpeed={50}
                 backSpeed={50}
-                loop={false}
+                loop={true}
                 showCursor={true}
               />
               <div className="actions__container">

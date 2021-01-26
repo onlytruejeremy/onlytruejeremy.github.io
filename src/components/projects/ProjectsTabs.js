@@ -31,10 +31,10 @@ const ProjectTabs = (props) => {
         {cards[index]}
         <div className="carousel__actions">
           <button className="btn__carousel darken" onClick={prev}>
-            &#x2B05;
+            Previous
           </button>
           <button className="btn__carousel darken" onClick={next}>
-            &#x27A1;
+            Next
           </button>
         </div>
       </div>

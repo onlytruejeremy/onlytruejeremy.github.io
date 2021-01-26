@@ -33,6 +33,10 @@ const ProjectCard = (props) => {
       </div>
       <div className="card__body">
         <h3>Links: </h3>
+        <small style={{ color: "darkblue", fontWeight: "800" }}>
+          Host: {props.item.host}
+        </small>
+        <br />
         <a href={props.item.viewUrl} target="_blank">
           View Site
         </a>
