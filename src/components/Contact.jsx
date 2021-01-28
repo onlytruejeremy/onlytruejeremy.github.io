@@ -1,10 +1,10 @@
 import React from "react";
-import "./Contact.css";
-import { useFormik } from "formik";
 import * as Yup from "yup";
-import axios from "axios";
-import { toast, ToastContainer } from "react-toastify";
+import IMG from "../assets/contact.svg";
+import { useFormik } from "formik";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 const Contact = (props) => {
   const contactSchema = Yup.object().shape({
     name: Yup.string()
@@ -25,16 +25,16 @@ const Contact = (props) => {
       )
       .required("Phone is Required"),
     message: Yup.string()
-      .min(30, "At least thirty characters")
+      .min(10, "At least ten characters")
       .max(200, "At most two hundred characters")
-      .required("Message is Required"),
+      .required("Message is Required")
   });
   const contactForm = useFormik({
     initialValues: {
       name: "",
       email: "",
       phone: "",
-      message: "",
+      message: ""
     },
     validationSchema: contactSchema,
     onSubmit: async (values, { resetForm }) => {
@@ -45,8 +45,8 @@ const Contact = (props) => {
         data: payload,
         crossdomain: true,
         headers: {
-          "Content-Type": "application/json",
-        },
+          "Content-Type": "application/json"
+        }
       };
       try {
         await axios(config);
@@ -55,14 +55,15 @@ const Contact = (props) => {
       } catch (error) {
         toast.error("Could Not Send Message");
       }
-    },
+    }
   });
   return (
-    <div className="contact__container" id="contact">
-      <h2 className="container_title">Contact</h2>
-      <div className="contact__inner">
-        <h2 className="form__title">Get In Touch</h2>
+    <div className="home__contact">
+      <div className="home__contact__inner">
+        <img src={IMG} alt="" />
+
         <form onSubmit={contactForm.handleSubmit}>
+          <h2>Contact Me</h2>
           <div className="form__group">
             <input
               type="text"
@@ -111,7 +112,7 @@ const Contact = (props) => {
                 : "Message"}
             </label>
           </div>
-          <button className="btn darken">Send Message</button>
+          <button className="btn btn__primary">Send Message</button>
         </form>
       </div>
       <ToastContainer />

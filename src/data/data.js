@@ -17,7 +17,7 @@ const data = [
     projectImages: [Ecom1, Ecom2, Ecom3],
     codeUrl: `https://github.com/onlytruejeremy/mr-electronics`,
     viewUrl: `https://mr-electronics.web.app/`,
-    host: "FireBase (Fast Loading)",
+    host: "FireBase (Fast Loading)"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const data = [
     projectImages: [Movies1, Movies2, Movies3],
     codeUrl: `https://github.com/onlytruejeremy/nothingbutmovies`,
     viewUrl: `https://movies-c4251.web.app/`,
-    host: "FireBase (Fast Loading)",
+    host: "FireBase (Fast Loading)"
   },
   {
     id: 3,
@@ -38,8 +38,8 @@ const data = [
     projectImages: [Social1, Social2, Social3],
     codeUrl: `https://codesandbox.io/s/blissful-cray-nosi2`,
     viewUrl: `https://nosi2-3000.sse.codesandbox.io/`,
-    host: "Codesandbox (Slow Loading)",
-  },
+    host: "Codesandbox (Slow Loading)"
+  }
 ];
 
 export default data;

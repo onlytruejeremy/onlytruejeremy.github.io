@@ -1,14 +1,37 @@
 import "./styles.css";
-import Home from "./components/Home/Home";
+import React from "react";
+import Home from "./components/Home";
+import About from "./components/About";
 import { Switch, Route } from "react-router-dom";
-export default function App() {
+import Services from "./components/Services";
+import Projects from "./components/Projects";
+import Clients from "./components/Clients";
+const App = () => {
   return (
-    <div className="App">
-      <Switch>
-        <Route to="/">
-          <Home />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route path="/" exact>
+        <Home />
+      </Route>
+      <Route path="/about" exact>
+        <About />
+      </Route>
+      <Route path="/services" exact>
+        <Services />
+      </Route>
+      <Route path="/projects" exact>
+        <Projects />
+      </Route>
+      <Route path="/clients" exact>
+        <Clients />
+      </Route>
+      <Route
+        to=""
+        render={(props) => {
+          return <Home {...props} />;
+        }}
+      />
+    </Switch>
   );
-}
+};
+
+export default App;
