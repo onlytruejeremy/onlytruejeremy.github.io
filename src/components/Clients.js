@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import Kraken from "../assets/kraken.jpg";
 import WebMall from "../assets/webmall.jpg";
+import Footer from "./Footer";
 const Clients = (props) => {
   const data = [
     { title: "Kraken Koders", imgUrl: Kraken },
@@ -27,6 +28,7 @@ const Clients = (props) => {
           })}
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };

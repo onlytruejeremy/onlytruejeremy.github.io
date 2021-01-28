@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Layout from "./Layout";
 import ServiceCard from "./ServiceCard";
 
@@ -42,6 +43,7 @@ const Services = (props) => {
           })}
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };

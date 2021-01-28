@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import ProjectCard from "./ProjectCard";
 import data from "../data/data";
+import Footer from "./Footer";
 const Projects = (props) => {
   return (
     <Layout>
@@ -17,6 +18,7 @@ const Projects = (props) => {
             return <ProjectCard data={item} />;
           })}
         </div>
+        <Footer />
       </div>
     </Layout>
   );

@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import PeopleCard from "./PeopleCard";
 import Me from "../assets/githubpic.PNG";
 import Resume from "../assets/FR2021.pdf";
+import Footer from "./Footer";
 const About = (props) => {
   const data = [
     {
@@ -30,6 +31,7 @@ const About = (props) => {
           })}
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };

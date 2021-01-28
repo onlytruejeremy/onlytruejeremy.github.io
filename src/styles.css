@@ -297,7 +297,7 @@ body {
   margin: auto;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
+
   margin-top: 2rem;
 }
 .people__container {
@@ -355,7 +355,6 @@ body {
   margin: auto;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
   margin-top: 2rem;
 }
 .services__cards {
@@ -408,7 +407,6 @@ body {
   margin: auto;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
   margin-top: 2rem;
 }
 .project__cards {
@@ -475,7 +473,6 @@ a {
   margin: auto;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -499,6 +496,32 @@ a {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+}
+.layout__container {
+  min-height: 100vh;
+}
+.footer__container {
+  clear: both;
+  background: var(--primary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  color: var(--light-color);
+  gap: 1rem;
+}
+.footer__container a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background: black;
+}
+.nav__item a:hover,
+i:hover {
+  color: black;
 }
 
 @media screen and (max-width: 800px) {
