@@ -12,7 +12,7 @@ const ServiceCard = (props) => {
         <Link
           to={{
             pathname: "/",
-            state: "contact"
+            state: "contact",
           }}
           className="btn btn__primary"
         >

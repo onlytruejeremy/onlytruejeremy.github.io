@@ -27,14 +27,14 @@ const Contact = (props) => {
     message: Yup.string()
       .min(10, "At least ten characters")
       .max(200, "At most two hundred characters")
-      .required("Message is Required")
+      .required("Message is Required"),
   });
   const contactForm = useFormik({
     initialValues: {
       name: "",
       email: "",
       phone: "",
-      message: ""
+      message: "",
     },
     validationSchema: contactSchema,
     onSubmit: async (values, { resetForm }) => {
@@ -45,8 +45,8 @@ const Contact = (props) => {
         data: payload,
         crossdomain: true,
         headers: {
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+        },
       };
       try {
         await axios(config);
@@ -55,7 +55,7 @@ const Contact = (props) => {
       } catch (error) {
         toast.error("Could Not Send Message");
       }
-    }
+    },
   });
   return (
     <div className="home__contact">

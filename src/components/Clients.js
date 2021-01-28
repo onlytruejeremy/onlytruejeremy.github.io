@@ -5,7 +5,7 @@ import WebMall from "../assets/webmall.jpg";
 const Clients = (props) => {
   const data = [
     { title: "Kraken Koders", imgUrl: Kraken },
-    { title: "WebMall", imgUrl: WebMall }
+    { title: "WebMall", imgUrl: WebMall },
   ];
   return (
     <Layout>

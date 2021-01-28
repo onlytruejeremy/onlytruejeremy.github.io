@@ -26,10 +26,7 @@ const NavBar = (props) => {
         >
           <div className={`bars ${barsActive ? "active" : null}`}></div>
         </div>
-        <i
-          className="fas fa-2x fa-bars"
-          style={{ position: "absolute", top: 20, right: 0 }}
-        />
+
         <ul className={`nav__items ${isActive ? "active" : null}`}>
           <li className="nav__item">
             <Link to="/">Home</Link>
@@ -52,7 +49,7 @@ const NavBar = (props) => {
             <Link
               to={{
                 pathname: "/",
-                state: "contact"
+                state: "contact",
               }}
             >
               Contact

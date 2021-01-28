@@ -8,8 +8,8 @@ const ProjectCard = ({
     projectImages,
     codeUrl,
     viewUrl,
-    host
-  }
+    host,
+  },
 }) => {
   return (
     <div className="project">

@@ -11,8 +11,8 @@ const About = (props) => {
       about:
         "I have worked on a multitude of web based projects for a range of clients providing web development services all the way from basic html to full stack applications. I have an extensive background in IT and turned my focus towards development, as I love watching ideas come to life.",
       image: Me,
-      resume: Resume
-    }
+      resume: Resume,
+    },
   ];
   return (
     <Layout>
