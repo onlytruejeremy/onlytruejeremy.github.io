@@ -131,6 +131,7 @@ body {
 
 .hero__tab {
   height: 20%;
+  min-height: 200px;
   background-color: var(--light-transparent);
   width: 100%;
   text-align: center;
@@ -596,5 +597,8 @@ i:hover {
   }
   .client {
     width: 100%;
+  }
+  .hero__tab {
+    min-height: 200px;
   }
 }
