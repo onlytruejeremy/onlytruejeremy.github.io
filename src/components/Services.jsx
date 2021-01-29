@@ -8,7 +8,8 @@ const Services = (props) => {
     {
       id: 1,
       title: "Front End",
-      paragraph: "Need someone to build the user side of an application?",
+      paragraph:
+        "Looking for someone to transform a design into something useable?",
       imgUrl:
         "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
@@ -33,9 +34,8 @@ const Services = (props) => {
       <div className="services__container">
         <h1 className="services__title">Services</h1>
         <p>
-          From the front-end to the back-end, I've got you covered. Whether you
-          need a simple website or a full stack application, you're in good
-          hands.
+          All the way from the viewable side of an application to business
+          logic, I've got the skills ready to build or enhance your product.
         </p>
         <div className="services__cards">
           {data.map((item) => {

@@ -9,9 +9,9 @@ const Projects = (props) => {
       <div className="projects__container">
         <h1 className="project__title">Projects</h1>
         <p>
-          If you have a few minutes then go ahead and check out some of my
-          projects. Feel free to reach out to me and let me know what you think,
-          I'm constantly learning and always open to feedback.
+          Go ahead and check out some of my work. Reach out to me and let me
+          know what you think, I'm constantly learning and always seeking
+          feedback.
         </p>
         <div className="project__cards">
           {data.map((item) => {

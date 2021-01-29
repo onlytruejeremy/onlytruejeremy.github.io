@@ -346,6 +346,22 @@ body {
 .people__body h4 {
   align-self: flex-start;
 }
+.people__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.people__buttons a.alt {
+  text-decoration: none;
+
+  background: var(--primary-btn);
+}
+.people__buttons a.alt:hover {
+  background: black;
+  color: white;
+}
 .services__container {
   min-height: 100vh;
   display: flex;
@@ -505,7 +521,7 @@ a {
   clear: both;
   background: var(--primary-text);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100px;
   width: 100vw;
@@ -516,7 +532,13 @@ a {
   text-decoration: none;
   color: white;
 }
-
+.footer__social {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+  height: 100%;
+}
 .btn:hover {
   background: black;
 }

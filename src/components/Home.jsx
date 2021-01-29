@@ -34,31 +34,31 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Services</h2>
               <p className="card__paragraph">
-                From the front-end to the back-end, I've got you covered.
-                Whether you need a simple website or a full stack application,
-                you're in good hands.
+                From simple websites to full-blown applications, I've got the
+                skills to breathe life into your product or service.
               </p>
               <Link to="/services" className="btn btn__primary">
-                Read More
+                Learn More
               </Link>
             </div>
             <div className="card">
               <h2 className="card__title">Projects</h2>
               <p className="card__paragraph">
-                Take a look at some of the things I'm working on to continue my
-                education.
+                Take a peek at some of the projects I've whipped together to
+                continue my education and demonstrate some of the skills I have.
               </p>
               <Link to="/projects" className="btn btn__primary">
-                Read More
+                View Projects
               </Link>
             </div>
             <div className="card">
               <h2 className="card__title">Clients</h2>
               <p className="card__paragraph">
-                Check out who I've worked with already.
+                Curious who I've worked with? Check out some of my previous
+                clientele.
               </p>
               <Link to="/clients" className="btn btn__primary">
-                Read More
+                View Clients
               </Link>
             </div>
           </div>
@@ -67,16 +67,16 @@ const Home = (props) => {
               <h1 className="section__title">About</h1>
               <br />
               <p>
-                If you're looking for a developer who knows how to be a part of
-                a team and is ready to help you bring that next project to life,
-                then look no further. With experience in development, IT and
-                sales, I have an array of skills that will bring you closer to
-                your goal.
+                There's always someone out there with an idea but that doesn't
+                matter. What does matter is the ability to bring that idea to
+                fruition. With an arsenal of development technologies in my
+                toolbelt I'll help you bridge that gap from mere thought into
+                reality. Don't wait and start executing.
               </p>
               <br />
 
               <Link to="/about" className="btn btn__primary">
-                Read More
+                Learn More
               </Link>
             </div>
           </div>

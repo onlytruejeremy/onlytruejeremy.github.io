@@ -13,8 +13,8 @@ const Clients = (props) => {
       <div className="clients__container">
         <h1 className="about__title">Clients</h1>
         <p>
-          No matter the project, big or small, I'll help you get to where you
-          need to go.
+          No matter if you're a startup or a large corporation, I've got the
+          skills necessary to build out that application or new feature.
         </p>
         <div className="clients">
           {data.map((item, index) => {

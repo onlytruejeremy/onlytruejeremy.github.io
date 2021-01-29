@@ -10,7 +10,7 @@ const About = (props) => {
       id: 1,
       name: "Jeremy Barber",
       about:
-        "I have worked on a multitude of web based projects for a range of clients providing web development services all the way from basic html to full stack applications. I have an extensive background in IT and turned my focus towards development, as I love watching ideas come to life.",
+        "I have worked on a multitude of web based projects for a range of clients providing development services all the way from basic websites to full stack applications. I have an extensive background in IT and turned my focus completely towards full stack development. Whether your project is big or small, I've got you covered.",
       image: Me,
       resume: Resume,
     },
@@ -19,12 +19,7 @@ const About = (props) => {
     <Layout>
       <div className="about__container">
         <h1 className="about__title">About</h1>
-        <p>
-          I'm a full stack developer with a focus on React, Node and SQL. Don't
-          tell anyone but I've been cheating on SQL-based databases with
-          document-based ones lately. The other secret is that I've been diving
-          more into React Native.
-        </p>
+        <p></p>
         <div className="people__container">
           {data.map((item) => {
             return <PeopleCard data={item} />;

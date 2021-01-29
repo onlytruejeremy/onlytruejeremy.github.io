@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const PeopleCard = ({ data: { name, about, image, resume } }) => {
   return (
     <div className="people__card">
@@ -10,9 +10,20 @@ const PeopleCard = ({ data: { name, about, image, resume } }) => {
       <div className="people__body">
         <h4>{name}</h4>
         <p>{about}</p>
-        <a href={resume} target="_blank" className="btn btn__primary">
-          View Resume
-        </a>
+        <div className="people__buttons">
+          <a href={resume} target="_blank" className="btn btn__primary">
+            View Resume
+          </a>
+          <Link
+            className="btn alt btn__primary"
+            to={{
+              pathname: "/",
+              state: "contact",
+            }}
+          >
+            Start Building
+          </Link>
+        </div>
       </div>
     </div>
   );
