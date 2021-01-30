@@ -9,7 +9,7 @@ const Services = (props) => {
       id: 1,
       title: "Front End",
       paragraph:
-        "Hav a design already? Let's turn it into something useable or build something out from scratch.",
+        "Have a design already? Let's turn it into something useable or build something out from scratch.",
       imgUrl:
         "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
