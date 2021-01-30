@@ -34,8 +34,8 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Services</h2>
               <p className="card__paragraph">
-                From simple websites to full-blown applications, I've got the
-                skills to breathe life into your product or service.
+                If you're in need of a developer, I'll bring the skills and
+                tools if you bring the idea.
               </p>
               <Link to="/services" className="btn btn__primary">
                 Learn More
@@ -44,8 +44,9 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Projects</h2>
               <p className="card__paragraph">
-                Take a peek at some of the projects I've whipped together to
-                continue my education and demonstrate some of the skills I have.
+                Wander over to my projects and take a look at some of the
+                personal projects I've built to help me keep growing as a
+                developer.
               </p>
               <Link to="/projects" className="btn btn__primary">
                 View Projects
@@ -67,14 +68,19 @@ const Home = (props) => {
               <h1 className="section__title">About</h1>
               <br />
               <p>
-                There's always someone out there with an idea but that doesn't
-                matter. What does matter is the ability to bring that idea to
-                fruition. With an arsenal of development technologies in my
-                toolbelt I'll help you bridge that gap from mere thought into
-                reality. Don't wait and start executing.
+                I have worked on various web projects for a range of clients
+                providing front end development (HTML, CSS, SCSS, JS, jQuery,
+                Bootstrap), middle tier development (NodeJS, ExpressJS, BCRYPT,
+                JWT, Joi, Mongoose), and back end development (MSSQL, MySQL,
+                MongoDB, FireBase Firestore). Every time I code there's always
+                challenges to overcome and new things to learn, but that's what
+                keeps it exciting. If you're looking for someone who doesn't
+                only possess the skills you need but also the ability to
+                communicate technical jargon to people technical and
+                non-technical alike then you've found the developer for you.
               </p>
-              <br />
 
+              <br />
               <Link to="/about" className="btn btn__primary">
                 Learn More
               </Link>

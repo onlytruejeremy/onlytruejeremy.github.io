@@ -318,7 +318,8 @@ body {
   background: var(--primary-text);
   width: 100%;
   max-width: 800px;
-  height: 250px;
+  height: 350px;
+  overflow: none;
 }
 .people__header {
   height: 100%;
