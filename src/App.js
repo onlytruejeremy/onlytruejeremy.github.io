@@ -7,23 +7,33 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Clients from "./components/Clients";
 const App = () => {
+  const routes = [
+    {
+      path: "/",
+      component: Home,
+    },
+    {
+      path: "/about",
+      component: About,
+    },
+    {
+      path: "/services",
+      component: Services,
+    },
+    {
+      path: "/projects",
+      component: Projects,
+    },
+    {
+      path: "/clients",
+      component: Clients,
+    },
+  ];
   return (
     <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/about" exact>
-        <About />
-      </Route>
-      <Route path="/services" exact>
-        <Services />
-      </Route>
-      <Route path="/projects" exact>
-        <Projects />
-      </Route>
-      <Route path="/clients" exact>
-        <Clients />
-      </Route>
+      {routes.map((route, i) => (
+        <Route path={route.path} component={route.component} exact />
+      ))}
       <Route
         to=""
         render={(props) => {
