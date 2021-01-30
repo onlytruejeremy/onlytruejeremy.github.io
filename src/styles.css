@@ -456,6 +456,10 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.project__header img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
 .project__body {
   display: flex;
   flex-direction: column;

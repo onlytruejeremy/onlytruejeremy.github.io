@@ -1,7 +1,7 @@
 import React from "react";
-
 const ProjectCard = ({
   data: {
+    id,
     projectTitle,
     projectTech,
     projectAbout,
@@ -10,11 +10,15 @@ const ProjectCard = ({
     viewUrl,
     host,
   },
+  ...otherProps
 }) => {
+  const openGallery = () => {
+    otherProps.openGallery(id);
+  };
   return (
     <div className="project">
       <div className="project__header">
-        <img src={projectImages[0]} alt="" />
+        <img src={projectImages[0]} alt="" onClick={openGallery} />
       </div>
       <div className="project__body">
         <h2>{projectTitle}</h2>

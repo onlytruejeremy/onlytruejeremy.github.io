@@ -3,7 +3,14 @@ import Layout from "./Layout";
 import ProjectCard from "./ProjectCard";
 import data from "../data/data";
 import Footer from "./Footer";
+import Gallery from "./Gallery";
 const Projects = (props) => {
+  const [open, setOpen] = React.useState(false);
+  const [imagesId, setImagesId] = React.useState();
+  const openGallery = (id) => {
+    setOpen(true);
+    setImagesId(id);
+  };
   return (
     <Layout>
       <div className="projects__container">
@@ -15,11 +22,12 @@ const Projects = (props) => {
         </p>
         <div className="project__cards">
           {data.map((item) => {
-            return <ProjectCard data={item} />;
+            return <ProjectCard data={item} openGallery={openGallery} />;
           })}
         </div>
         <Footer />
       </div>
+      <Gallery open={open} imagesId={imagesId} />
     </Layout>
   );
 };
