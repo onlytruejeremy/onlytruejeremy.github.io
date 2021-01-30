@@ -19,11 +19,11 @@ const Home = (props) => {
         <div className="home__container">
           <div className="hero__container">
             <div className="hero__tab">
-              <h3>Innovative Development</h3>
+              <h3>Full Stack Development</h3>
 
               <h1>
                 <Typed
-                  strings={["Bring Your Idea to Life"]}
+                  strings={["Have an Idea?", "Let's build it!"]}
                   typeSpeed={60}
                   loop={true}
                 />
@@ -44,9 +44,8 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Projects</h2>
               <p className="card__paragraph">
-                Wander over to my projects and take a look at some of the
-                personal projects I've built to help me keep growing as a
-                developer.
+                Wander over to my projects and take a look at a few of the
+                things I've built to help me keep growing as a developer.
               </p>
               <Link to="/projects" className="btn btn__primary">
                 View Projects
