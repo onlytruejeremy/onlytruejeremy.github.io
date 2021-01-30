@@ -9,7 +9,7 @@ const About = (props) => {
     {
       id: 1,
       name: "Jeremy Barber",
-      about: `I'm a full stack developer with a background in IT and intelligence operations. I've traveled the world while in the Army, met all sorts of amazing people, and became exposed to all kinds of technology along the way. This exposure is what fueled my drive to constantly learn more. Now here I am building out full blown applications!`,
+      about: `I'm a developer with a background in IT and intelligence operations. I have been tinkering with electronics and software ever since I was young. After I joined the Army I got to experience places all over the country and world. During this time I got even more exposure to various technology, and more hands on experience. After some deliberation I decided that software development was the right path for me and now here I am.`,
       image: Me,
       resume: Resume,
     },

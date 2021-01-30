@@ -71,12 +71,12 @@ const Home = (props) => {
                 providing front end development (HTML, CSS, SCSS, JS, jQuery,
                 Bootstrap), middle tier development (NodeJS, ExpressJS, BCRYPT,
                 JWT, Joi, Mongoose), and back end development (MSSQL, MySQL,
-                MongoDB, FireBase Firestore). Every time I code there's always
-                challenges to overcome and new things to learn, but that's what
-                keeps it exciting. If you're looking for someone who doesn't
-                only possess the skills you need but also the ability to
-                communicate technical jargon to people technical and
-                non-technical alike then you've found the developer for you.
+                MongoDB, FireBase Firestore). Every project has hurdles and new
+                things to learn, but that's what keeps it exciting. If you're
+                looking for someone who not only has the skills you need to
+                build something but also the ability to communicate with people
+                technical and non-technical alike then you've found the
+                developer for you.
               </p>
 
               <br />
