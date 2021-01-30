@@ -7,9 +7,11 @@ import Gallery from "./Gallery";
 const Projects = (props) => {
   const [open, setOpen] = React.useState(false);
   const [imagesId, setImagesId] = React.useState();
+  const [clickCount, setClickCount] = React.useState(0);
   const openGallery = (id) => {
     setOpen(true);
     setImagesId(id);
+    setClickCount(clickCount + 1);
   };
   return (
     <Layout>
@@ -27,7 +29,7 @@ const Projects = (props) => {
         </div>
         <Footer />
       </div>
-      <Gallery open={open} imagesId={imagesId} />
+      <Gallery open={open} imagesId={imagesId} clicked={clickCount} />
     </Layout>
   );
 };
