@@ -21,7 +21,7 @@ const PeopleCard = ({ data: { name, about, image, resume } }) => {
               state: "contact",
             }}
           >
-            Start Building
+            Contact
           </Link>
         </div>
       </div>

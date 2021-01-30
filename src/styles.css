@@ -318,7 +318,7 @@ body {
   background: var(--primary-text);
   width: 100%;
   max-width: 800px;
-  height: 350px;
+  height: 300px;
   overflow: none;
 }
 .people__header {
@@ -351,7 +351,7 @@ body {
 }
 .people__buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   gap: 1rem;
@@ -596,7 +596,7 @@ i:hover {
     height: 100%;
   }
   .people__header {
-    height: 200px;
+    height: 300px;
     width: 100%;
   }
   .people__body {
@@ -604,6 +604,9 @@ i:hover {
     justify-content: center;
 
     max-width: 90%;
+  }
+  .people__buttons {
+    justify-content: center;
   }
   .services__cards {
     flex-wrap: wrap;
