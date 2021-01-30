@@ -115,9 +115,11 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
   background-color: #00000060;
   background-blend-mode: luminosity;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .hero__container {
