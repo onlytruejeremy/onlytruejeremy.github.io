@@ -45,7 +45,7 @@ const Services = (props) => {
       }
     };
     adjustHeight();
-  });
+  }, [data]);
 
   return (
     <Layout>
