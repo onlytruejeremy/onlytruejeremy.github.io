@@ -411,7 +411,7 @@ body {
 .service__card__body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
   align-items: center;

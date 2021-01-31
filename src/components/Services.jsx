@@ -30,6 +30,23 @@ const Services = (props) => {
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
   ];
+  React.useEffect(() => {
+    const adjustHeight = () => {
+      let cards = document.getElementsByClassName("service__card");
+      let finalHeight = 0;
+      for (let i = 0; i < cards.length; i++) {
+        const current = cards[i];
+        let height = current.getBoundingClientRect().height;
+
+        if (height >= finalHeight) {
+          finalHeight = height;
+        }
+        current.style.height = `${finalHeight}px`;
+      }
+    };
+    adjustHeight();
+  });
+
   return (
     <Layout>
       <div className="services__container">
