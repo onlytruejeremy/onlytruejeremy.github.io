@@ -67,16 +67,26 @@ const Home = (props) => {
               <h1 className="section__title">About</h1>
               <br />
               <p>
-                I have worked on various web projects for a range of clients
-                providing front end development (HTML, CSS, SCSS, JS, jQuery,
-                Bootstrap), middle tier development (NodeJS, ExpressJS, BCRYPT,
-                JWT, Joi, Mongoose), and back end development (MSSQL, MySQL,
-                MongoDB, FireBase Firestore). Every project has hurdles and new
-                things to learn, but that's what keeps it exciting. If you're
-                looking for someone who not only has the skills you need to
-                build something but also the ability to communicate with people
-                technical and non-technical alike then you've found the
-                developer for you.
+                Welcome to my site. I'm a full stack developer with a background
+                in IT, sales and intelligence operations. Working with
+                technology has always been a passion of mine, the only thing
+                that has changed over time is what I focus my attention on
+                learning.
+                <br />
+                <br />
+                Here's a quick list of the technologies I use when developing
+                depending on the needs of the project:
+                <br />
+                <br />
+                Front-End: HTML5, CSS3, SCSS, Vanilla JavaScript, jQuery,
+                ReactJS, Axios, Yup, Formik, Ajax
+                <br />
+                <br />
+                Middle-Tier: NodeJS, and ExpressJS, Tedious/MSSQL, MySQL,
+                Mongoose, BCRYPT, JWT, Joi
+                <br />
+                <br />
+                Back-End: MSSQL, MySQL, MongoDB Atlas
               </p>
 
               <br />
