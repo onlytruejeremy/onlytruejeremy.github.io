@@ -34,8 +34,9 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Services</h2>
               <p className="card__paragraph">
-                If you're in need of a developer, I'll bring the skills and
-                tools if you bring the idea.
+                I have the skills and tools at the ready to build fully
+                responive and immersive applications designed for either
+                internal or external customers.
               </p>
               <Link to="/services" className="btn btn__primary">
                 Learn More
@@ -44,8 +45,9 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Projects</h2>
               <p className="card__paragraph">
-                Wander over to my projects and take a look at a few of the
-                things I've built to help me keep growing as a developer.
+                Take a look at some of the projects I've put together to that
+                demonstrate my constant drive to learn and innovate using new
+                technology.
               </p>
               <Link to="/projects" className="btn btn__primary">
                 View Projects
@@ -54,8 +56,10 @@ const Home = (props) => {
             <div className="card">
               <h2 className="card__title">Clients</h2>
               <p className="card__paragraph">
-                Curious who I've worked with? Check out some of my previous
-                clientele.
+                Each project, website and application I create is designed to
+                meet the desired end state a client has in mind. Behind the
+                development of all successful projects stands rock solid
+                communication.
               </p>
               <Link to="/clients" className="btn btn__primary">
                 View Clients
@@ -72,21 +76,6 @@ const Home = (props) => {
                 technology has always been a passion of mine, the only thing
                 that has changed over time is what I focus my attention on
                 learning.
-                <br />
-                <br />
-                Here's a quick list of the technologies I use when developing
-                depending on the needs of the project:
-                <br />
-                <br />
-                Front-End: HTML5, CSS3, SCSS, Vanilla JavaScript, jQuery,
-                ReactJS, Axios, Yup, Formik, Ajax
-                <br />
-                <br />
-                Middle-Tier: NodeJS, and ExpressJS, Tedious/MSSQL, MySQL,
-                Mongoose, BCRYPT, JWT, Joi
-                <br />
-                <br />
-                Back-End: MSSQL, MySQL, MongoDB Atlas
               </p>
 
               <br />

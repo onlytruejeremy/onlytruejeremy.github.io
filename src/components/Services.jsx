@@ -9,7 +9,11 @@ const Services = (props) => {
       id: 1,
       title: "Front End",
       paragraph:
-        "Have a design already? Let's turn it into something useable or build something out from scratch.",
+        "We'll work together to produce an experience your customers will love.",
+      tech: `HTML5, CSS3, Bootstrap,
+              JavaScript, jQuery, ReactJS, JSON, Formik,
+              Yup
+              `,
       imgUrl:
         "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
@@ -17,7 +21,10 @@ const Services = (props) => {
       id: 2,
       title: "Middle Tier",
       paragraph:
-        "If you need an API built then don't hesitate to get in touch and we can get started.",
+        "Enhancing an existing API or building something new? I've got the skills for both.",
+      tech: `NodeJS, Tedious, Mongoose,
+              MySQL, Joi, JWT, BCRYPT
+              `,
       imgUrl:
         "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
@@ -25,12 +32,15 @@ const Services = (props) => {
       id: 3,
       title: "Back End",
       paragraph:
-        "Whether you need a SQL-based or document-based database worked on, I'm ready.",
+        "Document-based or SQL-based database? Either way I'm ready to tackle the challenge.",
+      tech: `MongoDB, FireBase, MSSQL,
+              and MySQL
+              `,
       imgUrl:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
   ];
-  React.useEffect(() => {
+  /*   React.useEffect(() => {
     const adjustHeight = () => {
       let cards = document.getElementsByClassName("service__card");
       let finalHeight = 0;
@@ -45,15 +55,17 @@ const Services = (props) => {
       }
     };
     adjustHeight();
-  }, [data]);
+  }, [data]); */
 
   return (
     <Layout>
       <div className="services__container">
         <h1 className="services__title">Services</h1>
         <p>
-          All the way from the user side of an application to business logic,
-          I've got the skills ready to build or enhance your product.
+          From developing, creating and implementing first or third party APIs
+          to building a custom website, I create effective systems that are
+          flexible, intuitive, responsive. I'll help you expand your business
+          while enhancing your customer experience.
         </p>
         <div className="services__cards">
           {data.map((item) => {
