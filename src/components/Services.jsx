@@ -21,7 +21,7 @@ const Services = (props) => {
       id: 2,
       title: "Middle Tier",
       paragraph:
-        "I've got the skills necessary to extend existing APIs or create something new.",
+        "I'm ready to build a RESTful API from scratch or extend an existing one.",
       tech: `NodeJS, ExpressJS, Joi, JWT, BCRYPT, CORS, Helmet
               `,
       imgUrl:
@@ -31,7 +31,7 @@ const Services = (props) => {
       id: 3,
       title: "Back End",
       paragraph:
-        "Document-based or SQL-based database? Either way I'm ready to tackle the challenge.",
+        "I've got experience using document-based databases and relational ones.",
       tech: `MongoDB, FireBase, MSSQL, MySQL
               `,
       imgUrl:
