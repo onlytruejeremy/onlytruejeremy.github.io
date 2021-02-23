@@ -23,3 +23,28 @@ QuickSocial is a simple social media application where users can make posts with
 QuickSocial
 </summary>
 </details>
+
+## Tech
+* Front End: 
+	* HTML5
+	* CSS3
+	* Bootstrap
+	* JavaScript 
+	* jQuery 
+	* ReactJS 
+	* JSON 
+	* Formik
+	* Yup
+* Middle Tier: 
+	* NodeJS 
+	* Tedious 
+	* Mongoose
+	* MySQL 
+	* Joi 
+	* JWT 
+	* BCRYPT
+* Database
+	* MongoDB 
+	* FireBase 
+	* MSSQL
+	* MySQL
