@@ -755,6 +755,7 @@ i:hover,
   }
   .services__container {
     flex-wrap: wrap;
+    max-width: 90vw;
   }
   .services__cards {
     flex-wrap: wrap;
