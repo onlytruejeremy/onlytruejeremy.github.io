@@ -1,8 +1,8 @@
 # Portfolio Website
 
-This is my portfolio website, built using ReactJS and custom CSS.
+Welcome to my portfolio website behind the scenes.
 
-## Projects
+## Portfolio Projects
 <details>
 Mr. Electronics is an ecommerce application. Users can register, sign-in and view the latest products. They can also view products by category. Once a user has added the items they wish to purchase to the cart they can check out using stripe.
 <summary>
@@ -24,7 +24,7 @@ QuickSocial
 </summary>
 </details>
 
-## Tech
+## Tech I've Used To Build
 * Front End: 
 	* HTML5
 	* CSS3
