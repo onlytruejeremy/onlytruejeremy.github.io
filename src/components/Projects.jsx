@@ -16,7 +16,7 @@ const Projects = (props) => {
   return (
     <Layout>
       <div className="projects__container">
-        <h1 className="project__title">Projects</h1>
+        <h1 className="section__title__alt">Projects</h1>
         <p>
           Go ahead and check out some of my work. Reach out to me and let me
           know what you think, I'm constantly learning and always seeking

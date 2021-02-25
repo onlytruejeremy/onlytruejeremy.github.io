@@ -63,7 +63,7 @@ const Contact = (props) => {
         <img src={IMG} alt="" />
 
         <form onSubmit={contactForm.handleSubmit}>
-          <h2>Contact Me</h2>
+          <h2 className="section__title">Contact Me</h2>
           <div className="form__group">
             <input
               type="text"

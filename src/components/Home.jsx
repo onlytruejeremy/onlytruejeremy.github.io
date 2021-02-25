@@ -71,11 +71,10 @@ const Home = (props) => {
               <h1 className="section__title">About</h1>
               <br />
               <p>
-                Welcome to my site. I'm a full stack developer with a background
-                in IT, sales and intelligence operations. Working with
-                technology has always been a passion of mine, the only thing
-                that has changed over time is what I focus my attention on
-                learning.
+                Welcome to my site, I'm a full stack developer ready to work
+                with you to build out a project, site or service. Click the link
+                below to get a bit more information about my experience and how
+                I can help you.
               </p>
 
               <br />

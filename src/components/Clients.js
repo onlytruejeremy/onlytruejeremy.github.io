@@ -11,7 +11,7 @@ const Clients = (props) => {
   return (
     <Layout>
       <div className="clients__container">
-        <h1 className="about__title">Clients</h1>
+        <h1 className="section__title__alt">Clients</h1>
         <p>
           No matter if you're a startup or a large corporation, I've got the
           skills necessary to build out that application or new feature.

@@ -292,17 +292,97 @@ body {
   border-bottom: 0.1rem solid black;
 }
 .about__container {
-  min-height: 100vh;
+  max-width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 80vw;
-  max-width: 800px;
-  margin: auto;
   flex-direction: column;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vh;
   gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
-  margin-top: 2rem;
+.about__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+.section__title__alt {
+  position: relative;
+  margin-bottom: 1.1rem;
+}
+.section__title__alt::after {
+  content: "";
+  background-color: #000000;
+  height: 0.1rem;
+  width: 50%;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about__bottom {
+  padding-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  gap: 1rem;
+}
+.about__bottom__left,
+.about__bottom__right {
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: clamp(300px, 400px, 600px);
+}
+.about__bottom__left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.about__bottom__left::after {
+  content: "";
+  backdrop-filter: blur(20px);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  clip-path: circle(100%);
+  transition: 500ms ease-in-out;
+}
+.about__bottom__left.active::after {
+  backdrop-filter: blur(0px);
+  clip-path: circle(0%);
+}
+
+.three__btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.three__btn > button {
+  width: 100%;
+}
+.shadow {
+  box-shadow: 0 0.6px 0.6px rgb(0 0 0 / 2%), 0 1.4px 1.4px rgb(0 0 0 / 3%),
+    0 2.6px 2.6px rgb(0 0 0 / 4%), 0 4.7px 4.7px rgb(0 0 0 / 4%),
+    0 8.8px 8.8px rgb(0 0 0 / 5%), 0 21px 21px rgb(0 0 0 / 7%);
 }
 .people__container {
   display: flex;
@@ -604,6 +684,9 @@ i:hover,
     justify-content: center;
     align-items: center;
     max-width: 80vw;
+  }
+  .wrapme {
+    flex-wrap: wrap;
   }
   .form__group textarea,
   .form__group input {

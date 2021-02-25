@@ -42,7 +42,7 @@ const Services = (props) => {
   return (
     <Layout>
       <div className="services__container">
-        <h1 className="services__title">Services</h1>
+        <h1 className="section__title__alt">Services</h1>
         <p>
           From developing, creating and implementing first or third party APIs
           to building a custom website, I create effective systems that are
