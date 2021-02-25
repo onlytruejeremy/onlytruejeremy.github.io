@@ -5,8 +5,20 @@ import WebMall from "../assets/webmall.jpg";
 import Footer from "./Footer";
 const Clients = (props) => {
   const data = [
-    { title: "Kraken Koders", imgUrl: Kraken },
-    { title: "WebMall", imgUrl: WebMall },
+    {
+      title: "Kraken Koders",
+      imgUrl: Kraken,
+      about: `A veteran owned small business focused on graphic design, web development and 3d modeling. A place where creativity comes together and new experiences are born.`,
+    },
+    {
+      title: "WebMall",
+      imgUrl: WebMall,
+      about: `An innovative eCommerce platform that allows brands to live-stream
+          sales events, and engage with real customers all on one dynamic and
+          easy portal. No other platform allows vendors to both live-stream and
+          conduct eCommerce simultaneously. This will drive sales and engagement
+          for brands and customers alike.`,
+    },
   ];
   return (
     <Layout>
@@ -16,14 +28,19 @@ const Clients = (props) => {
           No matter if you're a startup or a large corporation, I've got the
           skills necessary to build out that application or new feature.
         </p>
+
         <div className="clients">
           {data.map((item, index) => {
             return (
-              <div
-                id={index}
-                className="client"
-                style={{ backgroundImage: `url(${item.imgUrl})` }}
-              ></div>
+              <>
+                <div
+                  className="client"
+                  id={index}
+                  style={{ backgroundImage: `url(${item.imgUrl})` }}
+                >
+                  <p className="client__about">{item.about}</p>
+                </div>
+              </>
             );
           })}
         </div>

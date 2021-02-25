@@ -204,7 +204,7 @@ body {
 
 .home__about__inner {
   max-width: 80vw;
-  max-width: 800px;
+  max-width: 1000px;
   height: 80%;
   margin: auto;
   display: flex;
@@ -292,7 +292,7 @@ body {
   border-bottom: 0.1rem solid black;
 }
 .about__container {
-  max-width: 100%;
+  max-width: 1000px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -398,7 +398,7 @@ body {
   align-items: center;
   background: var(--primary-text);
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   height: 300px;
   overflow: none;
 }
@@ -451,12 +451,12 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 80vw;
-  max-width: 800px;
+
   margin: auto;
   flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 1000px;
 }
 .services__cards {
   display: flex;
@@ -544,7 +544,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 80vw;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   flex-direction: column;
   gap: 1rem;
@@ -595,7 +595,7 @@ body {
 }
 .actions__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
   width: 100%;
@@ -614,7 +614,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   width: 80vw;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   flex-direction: column;
   gap: 1rem;
@@ -623,7 +623,7 @@ a {
 }
 .clients {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
@@ -631,17 +631,37 @@ a {
   width: 100%;
 }
 .client {
-  width: 250px;
-  height: 200px;
+  width: clamp(200px, 300px, 400px);
+  height: clamp(200px, 300px, 400px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 3rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  margin: auto;
+
+  border: 1px solid var(--primary-btn);
 }
+.client__about {
+  text-align: justify;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  transition: 300ms all ease-in-out;
+  opacity: 0;
+  cursor: default;
+  color: var(--light-color);
+}
+.client:hover .client__about {
+  opacity: 1;
+}
+
 .layout__container {
   min-height: 100vh;
 }
