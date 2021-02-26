@@ -29,9 +29,11 @@ const About = (props) => {
         </div>
         <div class="about__bottom wrapme">
           <div
-            class={`about__bottom__left ${isActive ? "active" : ""} shadow`}
-            style={{ backgroundImage: `url(${Me})` }}
-          ></div>
+            className={`about__bottom__left ${isActive ? "active" : ""} shadow`}
+          >
+            <img src={Me} alt="" />
+          </div>
+
           <div class="about__bottom__right">
             <h2>Full Stack Developer</h2>
             <p>
