@@ -46,8 +46,7 @@ const Services = (props) => {
         <p>
           From developing, creating and implementing first or third party APIs
           to building a custom website, I create effective systems that are
-          flexible, intuitive, and responsive. I'll help you expand your
-          business while enhancing your customer experience.
+          flexible, intuitive, and responsive.
         </p>
         <div className="services__cards">
           {data.map((item) => {

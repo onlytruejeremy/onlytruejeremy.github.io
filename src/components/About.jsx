@@ -37,21 +37,21 @@ const About = (props) => {
           <div class="about__bottom__right">
             <h2>Full Stack Developer</h2>
             <p>
-              I have a background in IT, sales and intelligence operations.
-              While deliberating over what I wanted to pursue in technology I
-              came across web development and I started tinkering. After working
-              on a team of developers, building out applications and sites, I
-              realized that development is where I should have been.
+              I have a background in IT, sales and intelligence operations. Ever
+              since I was young I've had a passion for technology. The only
+              thing that's changed over time is what I've focused my energy on
+              learning.
             </p>
             <p>
-              Now I have experience in developing RESTful APIs, databases,
-              responsive websites and full stack applications. Using my
-              knowledge and experience, I can help you tackle your next
-              challenge.
+              Experienced in designing and developing user interfaces, RESTful
+              APIs, databases, and responsive websites. Proven ability to
+              convert requirements into software and improve workflow.
+              Leveraging my knowledge and expertise, I can help you tackle your
+              next challenge.
             </p>
             <p>
-              You can find more information about what I am capable of and my
-              experience in the services section of my site.
+              I don't always have the answer, but I know how to find the
+              solution.
             </p>
             <div class="three__btn">
               <Link
