@@ -24,7 +24,15 @@ const Home = (props) => {
               <small>Jeremy Barber</small>
               <h1>Full Stack Developer</h1>
               <p>
-                I take ideas and transform them into websites and applications.
+                <Typed
+                  strings={[
+                    "I take ideas and transform them into websites and applications.",
+                    "I take ideas and transform them into reality.",
+                  ]}
+                  typeSpeed={40}
+                  loop
+                  smartBackspace
+                />
               </p>
               <Link
                 to={{

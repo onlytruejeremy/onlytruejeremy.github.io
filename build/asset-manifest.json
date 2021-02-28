@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4df050cb.chunk.css",
-    "main.js": "/static/js/main.c6567695.chunk.js",
-    "main.js.map": "/static/js/main.c6567695.chunk.js.map",
+    "main.css": "/static/css/main.cb9a0b59.chunk.css",
+    "main.js": "/static/js/main.8b276351.chunk.js",
+    "main.js.map": "/static/js/main.8b276351.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3888eb90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3888eb90.js.map",
     "static/css/2.340ea885.chunk.css": "/static/css/2.340ea885.chunk.css",
-    "static/js/2.5f724799.chunk.js": "/static/js/2.5f724799.chunk.js",
-    "static/js/2.5f724799.chunk.js.map": "/static/js/2.5f724799.chunk.js.map",
+    "static/js/2.e9df564c.chunk.js": "/static/js/2.e9df564c.chunk.js",
+    "static/js/2.e9df564c.chunk.js.map": "/static/js/2.e9df564c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.340ea885.chunk.css.map": "/static/css/2.340ea885.chunk.css.map",
-    "static/css/main.4df050cb.chunk.css.map": "/static/css/main.4df050cb.chunk.css.map",
-    "static/js/2.5f724799.chunk.js.LICENSE.txt": "/static/js/2.5f724799.chunk.js.LICENSE.txt",
+    "static/css/main.cb9a0b59.chunk.css.map": "/static/css/main.cb9a0b59.chunk.css.map",
+    "static/js/2.e9df564c.chunk.js.LICENSE.txt": "/static/js/2.e9df564c.chunk.js.LICENSE.txt",
     "static/media/JeremyB2021.e226c291.pdf": "/static/media/JeremyB2021.e226c291.pdf",
+    "static/media/app.332ebb71.svg": "/static/media/app.332ebb71.svg",
     "static/media/contact.d0709220.svg": "/static/media/contact.d0709220.svg",
     "static/media/ecomm1.addd0aba.PNG": "/static/media/ecomm1.addd0aba.PNG",
     "static/media/ecomm2.5c5b1c44.PNG": "/static/media/ecomm2.5c5b1c44.PNG",
@@ -25,13 +26,13 @@
     "static/media/social1.ab931a08.PNG": "/static/media/social1.ab931a08.PNG",
     "static/media/social2.f66cd2d2.PNG": "/static/media/social2.f66cd2d2.PNG",
     "static/media/social3.bc5e402b.PNG": "/static/media/social3.bc5e402b.PNG",
-    "static/media/styles.css": "/static/media/world-bg.3b34191b.jpg"
+    "static/media/webdev.944472e8.svg": "/static/media/webdev.944472e8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3888eb90.js",
     "static/css/2.340ea885.chunk.css",
-    "static/js/2.5f724799.chunk.js",
-    "static/css/main.4df050cb.chunk.css",
-    "static/js/main.c6567695.chunk.js"
+    "static/js/2.e9df564c.chunk.js",
+    "static/css/main.cb9a0b59.chunk.css",
+    "static/js/main.8b276351.chunk.js"
   ]
 }
