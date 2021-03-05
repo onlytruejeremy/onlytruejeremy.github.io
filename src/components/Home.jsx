@@ -100,49 +100,30 @@ const Home = (props) => {
         </section>
         <section className="explanation alt">
           <div className="explanation__inner">
-            <h2>Tech I Use</h2>
+            <h2>Top Skills</h2>
             <div className="explanation__features alt">
               <div className="explanation__feature alt">
                 <i className="fas fa-file-code" />
                 <ul>
                   <li>
-                    <h4>Front End:</h4>
+                    <h4>ReactJS</h4>
                   </li>
-                  <li>CSS3</li>
-                  <li>HTML5</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript</li>
-                  <li>jQuery</li>
-                  <li>ReactJS</li>
-                  <li>Formik</li>
-                  <li>Yup</li>
-                  <li>Axios</li>
                 </ul>
               </div>
               <div className="explanation__feature alt">
                 <i className="fas fa-server" />
                 <ul>
                   <li>
-                    <h4>Middle Tier:</h4>
+                    <h4>NodeJS</h4>
                   </li>
-                  <li>NodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>Joi</li>
-                  <li>JWT</li>
-                  <li>BCRYPT</li>
-                  <li>CORS</li>
-                  <li>Helmet</li>
                 </ul>
               </div>
               <div className="explanation__feature alt">
                 <i className="fas fa-database" />
                 <ul>
                   <li>
-                    <h4>Back End:</h4>
+                    <h4>SQL</h4>
                   </li>
-                  <li>SQL</li>
-                  <li>MongoDB</li>
-                  <li>FireBase</li>
                 </ul>
               </div>
             </div>
@@ -156,10 +137,7 @@ const Home = (props) => {
             <div className="explore__items">
               <div className="explore__item">
                 <h3>About</h3>
-                <p>
-                  Take a deeper dive into my experience and learn a bit more
-                  about how I can help you.
-                </p>
+                <p>Take a deeper dive into my background and experience.</p>
                 <Link to="/about" className="btn btn__primary">
                   About
                 </Link>

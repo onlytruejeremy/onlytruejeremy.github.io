@@ -18,10 +18,12 @@ const Projects = (props) => {
       <div className="projects__container">
         <h1 className="section__title__alt">Projects</h1>
         <p>
-          Go ahead and check out some of my work. Reach out to me and let me
-          know what you think, I'm constantly learning and always seeking
-          feedback.
+          Take a peek at some of my latest projects. Feel free to let me know
+          what you think, I'm always looking for feedback.
         </p>
+        <small>
+          Short on time? Click on an image to view screenshots of the project.
+        </small>
         <div className="project__cards">
           {data.map((item) => {
             return <ProjectCard data={item} openGallery={openGallery} />;

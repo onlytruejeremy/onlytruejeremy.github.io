@@ -688,7 +688,8 @@ h3 {
   opacity: 1;
 }
 
-.service__card__footer {
+.service__card__footer,
+.service__card__header {
   padding: 1rem;
   display: flex;
   justify-content: center;

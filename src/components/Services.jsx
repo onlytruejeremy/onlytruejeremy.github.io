@@ -48,6 +48,7 @@ const Services = (props) => {
           to building a custom website, I create effective systems that are
           flexible, intuitive, and responsive.
         </p>
+        <small>Hover over an image to view information.</small>
         <div className="services__cards">
           {data.map((item) => {
             return <ServiceCard data={item} />;

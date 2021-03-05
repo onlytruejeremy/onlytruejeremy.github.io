@@ -23,7 +23,7 @@ const data = [
     id: 2,
     projectTitle: "Favorite Movies",
     projectTech: "ReactJS, FireBase, React Bootstrap, The Movie Database API",
-    projectAbout: `Favorite movies is a movie directory application. Users can register, sign-on, comment and add their movies to their favorites.`,
+    projectAbout: `Favorite movies is a movie directory application. Users can register, sign-on, comment and add movies to their favorites.`,
     projectImages: [Movies1, Movies2, Movies3],
     codeUrl: `https://github.com/onlytruejeremy/nothingbutmovies`,
     viewUrl: `https://movies-c4251.web.app/`,

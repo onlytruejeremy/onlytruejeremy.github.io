@@ -18,7 +18,7 @@ const About = (props) => {
     <Layout>
       <div class="about__container">
         <div class="about__top">
-          <h1 class="section__title__alt">ABOUT</h1>
+          <h1 class="section__title__alt">About</h1>
           <div class="section__paragraph">
             My goal is to create a positive impact by bringing ideas and
             concepts to life. I am constantly building projects in order to
@@ -37,21 +37,17 @@ const About = (props) => {
           <div class="about__bottom__right">
             <h2>Full Stack Developer</h2>
             <p>
-              I have a background in IT, sales and intelligence operations. Ever
-              since I was young I've had a passion for technology. The only
-              thing that's changed over time is what I've focused my energy on
-              learning.
+              An experienced, sprightly and detail-oriented Web Developer with a
+              track record of optimizing workflow and driving client
+              satisfaction. Possessing a background in IT, sales and
+              intelligence operations. Skilled in effectively transforming
+              business requirements into websites and applications.
             </p>
+
             <p>
-              Experienced in designing and developing user interfaces, RESTful
-              APIs, databases, and responsive websites. Proven ability to
-              convert requirements into software and improve workflow.
-              Leveraging my knowledge and expertise, I can help you tackle your
-              next challenge.
-            </p>
-            <p>
-              I don't always have the answer, but I know how to find the
-              solution.
+              Whether you need someone with front end or back end skills, I'm
+              ready to take on the challenge and help you better serve your
+              clients.
             </p>
             <div class="three__btn">
               <Link
